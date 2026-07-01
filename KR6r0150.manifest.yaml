@@ -1,0 +1,65 @@
+canonical_identifier: bkk:krp/KR6r0150/v1
+canonical_location: https://kanripo.org/bkk/KR6r0150/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 三教平心論
+  identifiers:
+    alt_id:
+    - T52n2117
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T52/T52n2117.xml
+    old_id: T52n2117
+  edition:
+    short: bkk
+editions:
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6r0150_000.yaml, hash: 'sha256:fed05c3cf6a9e4a8ce680285c33143ff20aed73433d890a5e7196a9f21b9f36b'}
+  - {seq: 1, filename: KR6r0150_001.yaml, hash: 'sha256:f00438a8a3f7144052bff0de328daa67ae2127b6f4ac695c5b12fb1bd11673e2'}
+  - {seq: 2, filename: KR6r0150_002.yaml, hash: 'sha256:1c35b506dbefd6fe3013cef4e347147f13ea5afd97b7469521cf3d4112a1a1b9'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6r0150_000.markers.yaml, hash: 'sha256:ff797b9bf4cdb04ffa1f9836ecfd4aa1acf2e24e142f55bbdb6d31e66ed18de7'}
+  - {seq: 1, role: markers, filename: assets/KR6r0150_001.markers.yaml, hash: 'sha256:c7da4177c1241e3dcb82c6954aec416bf1e9c12fe051399660614f58239e8e1d'}
+  - {seq: 2, role: markers, filename: assets/KR6r0150_002.markers.yaml, hash: 'sha256:8a59dac61a9b5775384bf73a67dba911cf9b3076e00f4c68ab60a88cdc5994a5'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6r0150_T_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: 三教平心論序
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6r0150_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 8372
+  label: 三教平心論卷上
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6r0150_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 10123
+  label: 三教平心論卷下
+  type: juan
+  level: 1
+hash: sha256:f9094378c6e79f3a0651ee4fd37960b55d2c27e90428c58e3b64a8d3ac261565
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
