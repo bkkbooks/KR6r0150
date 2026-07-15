@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6r0150/v1
 canonical_location: https://kanripo.org/bkk/KR6r0150/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 三教平心論
   identifiers:
@@ -21,13 +21,13 @@ editions:
 - short: T
 assets:
   parts:
-  - {seq: 0, filename: KR6r0150_000.yaml, hash: 'sha256:da4394c18498d737c342ae01afe2ac88b6ddbde138a55656898ffa0c77c9e4ed'}
-  - {seq: 1, filename: KR6r0150_001.yaml, hash: 'sha256:e2296fdd892f828e3da7fe03d88dc02d2c9353f7fcf775aa3d68ad7b030fcd6b'}
-  - {seq: 2, filename: KR6r0150_002.yaml, hash: 'sha256:5fc5e2fe8f69573dd138097c950b1b64dddd11e7f51060682bc533cb779adcb2'}
+  - {seq: 0, filename: KR6r0150_000.yaml, hash: 'sha256:7171683f2977a4aaabf05cc292669bbd90a372c2a687a610690f2a419fce9050'}
+  - {seq: 1, filename: KR6r0150_001.yaml, hash: 'sha256:d435cb4b36d77b5e4f2d8a7507e8e80b9d4f0ac8387bf75e0fdce17e9a8be139'}
+  - {seq: 2, filename: KR6r0150_002.yaml, hash: 'sha256:35a318cc4cfa6d5d088b70e4dac64e7ba94ef89c57646823ea4eab499738b981'}
   markers:
-  - {seq: 0, role: markers, filename: assets/KR6r0150_000.markers.yaml, hash: 'sha256:3e8f9c92dda2a12b1e0a2da644df075d2bc3b64698efd40665f2625e95182137'}
-  - {seq: 1, role: markers, filename: assets/KR6r0150_001.markers.yaml, hash: 'sha256:5a145891644ddb342e1459d021fea9170331ebfd6cdd706ecf4e4a4e8c3526e9'}
-  - {seq: 2, role: markers, filename: assets/KR6r0150_002.markers.yaml, hash: 'sha256:9870640981c8b019318a0f11fe45cbbf96909025ca81cdd632ed32b54cd1a882'}
+  - {seq: 0, role: markers, filename: assets/KR6r0150_000.markers.yaml, hash: 'sha256:b4742a99f2f7f081ae45f8336d36c94150db297346ae705cee58eeeb5505ec1f'}
+  - {seq: 1, role: markers, filename: assets/KR6r0150_001.markers.yaml, hash: 'sha256:a6a0ed7c790c7c54eb0b45595cd321b4ceb453371bf08768466f69656780b47c'}
+  - {seq: 2, role: markers, filename: assets/KR6r0150_002.markers.yaml, hash: 'sha256:3bdab6a88f61b5d78037173456af301b99cd2f60c5116f2739b3e20793a39e5d'}
 table_of_contents:
 - ref:
     seq: 0
@@ -59,4 +59,7 @@ table_of_contents:
   label: 三教平心論卷下
   type: juan
   level: 1
-hash: sha256:2f3b55963c2c2a28b8a653ae2f6a06e52addd6036183328d4c45481f6b49458b
+hash: sha256:7472044b07602cc376fb389936ffcbd1809a0dac8df9cd457665021426b2867a
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
