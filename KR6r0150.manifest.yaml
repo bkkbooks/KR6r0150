@@ -21,11 +21,11 @@ editions:
 - short: T
 assets:
   parts:
-  - {seq: 0, filename: KR6r0150_000.yaml, hash: 'sha256:7171683f2977a4aaabf05cc292669bbd90a372c2a687a610690f2a419fce9050'}
+  - {seq: 0, filename: KR6r0150_000.yaml, hash: 'sha256:de1a850b8ca98b20176f444738db17befe89eecab93faf63517b851657544e2d'}
   - {seq: 1, filename: KR6r0150_001.yaml, hash: 'sha256:d435cb4b36d77b5e4f2d8a7507e8e80b9d4f0ac8387bf75e0fdce17e9a8be139'}
   - {seq: 2, filename: KR6r0150_002.yaml, hash: 'sha256:35a318cc4cfa6d5d088b70e4dac64e7ba94ef89c57646823ea4eab499738b981'}
   markers:
-  - {seq: 0, role: markers, filename: assets/KR6r0150_000.markers.yaml, hash: 'sha256:b4742a99f2f7f081ae45f8336d36c94150db297346ae705cee58eeeb5505ec1f'}
+  - {seq: 0, role: markers, filename: assets/KR6r0150_000.markers.yaml, hash: 'sha256:31688cbce9a52c079e8204f93b56c5eb860d7bb62bd394d198c8dc3da15c68dd'}
   - {seq: 1, role: markers, filename: assets/KR6r0150_001.markers.yaml, hash: 'sha256:a6a0ed7c790c7c54eb0b45595cd321b4ceb453371bf08768466f69656780b47c'}
   - {seq: 2, role: markers, filename: assets/KR6r0150_002.markers.yaml, hash: 'sha256:3bdab6a88f61b5d78037173456af301b99cd2f60c5116f2739b3e20793a39e5d'}
 table_of_contents:
@@ -33,7 +33,7 @@ table_of_contents:
     seq: 0
     marker_id: KR6r0150_T_000-mulu-1
     span:
-    - front
+    - body
     - 0
     - 0
   label: 三教平心論序
@@ -59,7 +59,7 @@ table_of_contents:
   label: 三教平心論卷下
   type: juan
   level: 1
-hash: sha256:7472044b07602cc376fb389936ffcbd1809a0dac8df9cd457665021426b2867a
+hash: sha256:47d38755807337579127c73d2fe613ef85e19f0ee3294a4033a0aa5aaa11b6fe
 mappings:
 - canonical_identifier: bkk:mapping/variant-fold-v1
   hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
